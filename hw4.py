@@ -54,4 +54,5 @@ for i in range(len(numbers) - 1):
     numbers_count.append(numbers[i - 1] + numbers[i] + numbers[i + 1])
 numbers_count.append(numbers[-2] + numbers[-1] + numbers[0])
 
+
 print(f"Максимального числа ягод: {max(numbers_count)}")
